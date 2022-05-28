@@ -1,0 +1,23 @@
+Estudiantes de la ficha 51160:
+* David Perez Valenzuela
+* Geovany Peñaranda
+* Yineth catherine martinez hernandez
+* Manuel Esteban Sastoque
+* Sandra Johanna Barrero Trejos
+
+Este sitio web tiene las siguientes rutas:
+
+1. Pagina principal
+/index.html
+
+2. Pagina de inicio de sesión:
+/pages/iniciar_sesion/iniciar_sesion.html
+
+3. Pagina de registro:
+/pages/registro/registro.html
+
+4. Pagina de Quienes Somos:
+/pages/quienes_somos/quienes_somos.html
+
+5. Pagina de Productos:
+/pages/catalogo/catalogo.html

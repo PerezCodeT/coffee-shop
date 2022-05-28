@@ -1,0 +1,22 @@
+{
+  "name": "coffee-shop-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PerezCodeT/coffee-shop.git"
+  },
+  "author": "PerezCode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PerezCodeT/coffee-shop/issues"
+  },
+  "homepage": "https://github.com/PerezCodeT/coffee-shop#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

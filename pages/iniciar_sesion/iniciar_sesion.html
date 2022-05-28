@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./iniciar_sesion.css" />
+    <title>Francy's Coffee Shop</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/images/logo_francys_coffee_shop.jpeg"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="/">
+        <div class="header__logo">
+          <img src="/assets/images/logo_francys_coffee_shop.png" />
+          <h1>Francy's Coffee Shop</h1>
+        </div>
+      </a>
+      <div class="header__buttons">
+        <button>Iniciar sesión</button>
+        <button>Registrarse</button>
+      </div>
+    </header>
+    <main class="main">
+      <div class="login__container">
+        <h1 class="login__title">Inicia sesión</h1>
+        <form class="login__form">
+          <div class="login__field">
+            <label class="login__label">Usuario:</label>
+            <input
+              class="login__input"
+              type="text"
+              required
+              placeholder="Escribe tu usuario"
+            />
+          </div>
+          <div class="login__field">
+            <label class="login__label">Contraseña:</label>
+            <input
+              class="login__input"
+              type="text"
+              required
+              placeholder="Escribe tu contraseña"
+            />
+          </div>
+          <input
+            class="login__submit-button"
+            type="submit"
+            value="Iniciar sesion"
+          />
+        </form>
+        <p>¿Eres un nuevo usuario?</p>
+        <a href="/pages/registro/registro.html">Regístrate aquí</a>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__section-one">
+        <div class="footer__logo">
+          <img src="/assets/images/logo_francys_coffee_shop.png" />
+          <p>Francy's Coffee Shop</p>
+        </div>
+      </div>
+      <div class="footer__section-two">
+        <div class="footer__links">
+          <a href="/pages/quienes_somos/quienes_somos.html">Nosotros</a>
+          <a href="">Contactanos</a>
+          <a href="">Visitanos</a>
+          <a href="">Sugerencias</a>
+          <a href="">Sé parte de nosotros</a>
+        </div>
+      </div>
+      <div class="footer__section-three">
+        <div class="footer__social-networks">
+          <a class="footer__social-network" href="#"
+            ><img src="/assets/icons/facebook.png"
+          /></a>
+          <a class="footer__social-network" href="#"
+            ><img src="/assets/icons/instagram.png"
+          /></a>
+          <a class="footer__social-network" href="#"
+            ><img src="/assets/icons/twitter.png"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
